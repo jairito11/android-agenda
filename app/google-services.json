@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "253915417064",
+    "firebase_url": "https://agenda-fiuaemex.firebaseio.com",
+    "project_id": "agenda-fiuaemex",
+    "storage_bucket": "agenda-fiuaemex.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:253915417064:android:57f54d85212aa3a8c1fc5d",
+        "android_client_info": {
+          "package_name": "com.jairo.agenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "253915417064-3snq1dbf85kddrei729pc1um7n0iblch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ9yb3BAd-EcM1bhj7R3EsQ-mcauUtYd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "253915417064-3snq1dbf85kddrei729pc1um7n0iblch.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
