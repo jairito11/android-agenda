@@ -50,23 +50,24 @@
 
             <Button
                 android:id="@+id/btnRegistrar"
-                android:layout_margin="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/colorUno"
-                android:textColor="@android:color/white"
-                android:text="registrar" />
+                android:text="registrar"
+                android:textColor="@android:color/white" />
 
             <Button
-                android:id="@+id/btnlogin"
-                android:layout_margin="5dp"
+                android:id="@+id/btnLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_margin="5dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/colorDos"
-                android:textColor="@android:color/white"
-                android:text="login" />
+                android:text="login"
+                android:textColor="@android:color/white" />
+
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
