@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         etEmail = findViewById(R.id.etEmail);
         etPassword = findViewById(R.id.etPassword);
-        btnRegistrar = findViewById(R.id.btnRegistrar);
+        btnRegistrar = findViewById(R.id.btnLogout);
         btnLogin = findViewById(R.id.btnLogin);
 
         // Obtain the FirebaseAnalytics instance.
@@ -106,9 +106,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showHome(String email, ProviderType provider){
-//        Intent intent = new Intent(SplashScreen.this, MainActivity.class);
-//        startActivity(intent);
-//        finish();
         Intent i = new Intent(this,HomeActivity.class);
         i.putExtra("email",email);
         i.putExtra("provider",provider.toString());
