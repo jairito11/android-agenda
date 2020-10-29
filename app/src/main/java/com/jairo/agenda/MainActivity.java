@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //etEmail.getText().toString().isEmpty()
-                if (!etEmail.getText().toString().isEmpty() && !etPassword.getText().toString().isEmpty()){
+                if ((!etEmail.getText().toString().isEmpty() && etEmail.getText().toString().contains("@"))&& !etPassword.getText().toString().isEmpty()){
                     Toast.makeText(MainActivity.this, "Correcto", Toast.LENGTH_SHORT).show();
                 }
             }
